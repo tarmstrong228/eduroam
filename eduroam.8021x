@@ -1,0 +1,11 @@
+[Security]
+
+EAP-Method=PEAP
+
+EAP-PEAP-Phase2-Method=MSCHAPV2
+
+EAP-PEAP-Phase2-Identity=netid@msstate.edu
+EAP-PEAP-Phase2-Password=password
+
+[Settings]
+AutoConnect=true
