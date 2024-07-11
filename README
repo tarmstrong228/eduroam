@@ -13,7 +13,8 @@
 # [iwd]# station name scan
 # [iwd]# station name get-networks
 # [iwd]# station name connect eduroam
-# 
+#To verify if connected, run [iwd]# station name show
+#
 #Refer to the below for further detail
 #File formating: https://iwd.wiki.kernel.org/networkconfigurationsettings
 #Connecting without autoconnect: https://wiki.archlinux.org/title/Iwd
