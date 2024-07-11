@@ -1,0 +1,21 @@
+# For Mississippi State Univeristy connections to EDUROAM
+#
+#
+#Copy eduroam.8021x to /var/lib/iwd
+#Edit netid@msstate.edu to user's email
+#Edit password to user's email
+#To turn autoconnect off, edit true to false in the autoconnect settings section (line 11)
+#
+#If user turns autoconnect off, run following commands to connect
+# $iwctl
+# [iwd]# device list
+# (Use the device name from above in place of name for now on, name will likely be wlan0)
+# [iwd]# station name scan
+# [iwd]# station name get-networks
+# [iwd]# station name connect eduroam
+# 
+#Refer to the below for further detail
+#File formating: https://iwd.wiki.kernel.org/networkconfigurationsettings
+#Connecting without autoconnect: https://wiki.archlinux.org/title/Iwd
+#Example EDUROAM configuration files (may not work for MSSTATE): https://www.math.cmu.edu/~gautam/sj/blog/20211025-eduroam-iwd.html
+#
